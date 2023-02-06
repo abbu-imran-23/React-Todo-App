@@ -54,7 +54,7 @@ const App = () => {
                {
                 listData != [] && listData.map((listItem,idx) => (
                     <div className="flex">
-                      <h1 className="p-1 text-xl font-semibold w-[350px] sm:[400px] pl-3 items-center text-white bg-slate-600 rounded">{listItem}</h1>
+                      <h1 className="p-1 text-xl font-semibold w-[290px] sm:[380px] md:[430px] pl-3 items-center text-white bg-slate-600 rounded">{listItem}</h1>
                       <button key={idx} className="p-2 w-fit font-bold bg-blue-500 rounded"
                       onClick={() => HandleRemoveItem(idx)}>Remove</button>
                     </div>
