@@ -41,7 +41,7 @@ const App = () => {
                <h1 className="text-white text-3xl mt-6 font-bold">TODO LIST</h1>
 
                <div>
-                <input type="text" placeholder="Add item" className="p-2 w-[300px] sm:w-[480px] md:w-[600px] outline-none rounded"
+                <input type="text" required placeholder="Add item" className="p-2 w-[300px] sm:w-[480px] md:w-[600px] outline-none rounded"
                 value={item} onChange={HandleOnChangeInput} />
 
                 <button className="p-2 w-[60px] font-bold bg-blue-500 rounded"
